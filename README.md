@@ -1,2 +1,2 @@
 # swoonflix
-Binge watch your Kdramas
+Binge watch your favourite kdramas with AI recommendations 

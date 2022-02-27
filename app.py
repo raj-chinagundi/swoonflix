@@ -14,7 +14,7 @@ st.title('Swoonflix')
 @st.cache
 def get_data():
 	path = r'thisIsLast.csv'
-	f=pd.read_csv(path,encoding='latin1')
+	f=pd.read_csv(path,encoding='utf-16')
 	return f
 def set_data(f,c1,c2):
 	f=f.loc[((f["category"] == str(c1)) & (f["country"] == str(c2)))]

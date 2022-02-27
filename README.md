@@ -6,7 +6,7 @@ Complete list of all the top asian series and movies
 
 ### Content
 
-Data was scraped from [mydramalist](https://mydramalist.com/) by setting just two filters i.e movies and dramas
+Data was scraped from [mydramalist](https://mydramalist.com/) by setting just two filters i.e movies and dramas (9657 suggestions)
 
 ### Inspiration
 

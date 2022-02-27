@@ -14,7 +14,7 @@ st.title('Swoonflix')
 @st.cache
 def get_data():
 	path = r'thisIsLast.csv'
-	f=pd.read_csv(path)
+	f=pd.read_csv(path,encoding='utf-8-sig')
 	return f
 def set_data(f,c1,c2):
 	f=f.loc[((f["category"] == str(c1)) & (f["country"] == str(c2)))]
@@ -64,7 +64,7 @@ option = st.selectbox(
      'Choose recommedations based on:',
      ('Genre','Cast'))
 
-st.write("Suggesting", top,"best dramas based on ",option," in our list for you :)")
+st.write("Suggesting", top,"best dramas based on ",option," :)")
 
 def recommend(n,t=top,based=option):
 	idx =dramas[dramas['Name'] == n].index[0]

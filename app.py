@@ -29,7 +29,7 @@ country_name= st.selectbox('Select a country', temp['country'].unique())
 df = temp.loc[((temp["category"] == category_name) & (temp["country"] == country_name))]
 df.fillna('Info not available',inplace=True)
 selected_dramas = st.selectbox(
-     'Search for any movie or a show you like',
+     'Search for any movie or a show that you like',
      df['Name'])
 #creating df copy
 dramas=df[['Name', 'category', 'country', 'num_episodes', 'aired',
@@ -58,12 +58,12 @@ def text_to_vector(text):
     words = WORD.findall(text)
     return Counter(words)
 
-top = st.slider('Swoon into our top N recommendations', 0, 100, 10)
 
 option = st.selectbox(
      'Choose recommedations based on:',
      ('Genre','Cast'))
 
+top = st.slider('Swoon into our top N recommendations', 0, 100, 10)
 st.write("Suggesting", top,"best dramas based on ",option," :)")
 
 def recommend(n,t=top,based=option):

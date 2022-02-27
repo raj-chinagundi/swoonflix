@@ -64,7 +64,7 @@ option = st.selectbox(
      ('Genre','Cast'))
 
 top = st.slider('Swoon into our top N recommendations', 0, 100, 10)
-st.write("Suggesting", top,"best dramas based on ",option," :)")
+st.write("Suggesting", top,"best ",category_name," based on ",option," :)")
 
 def recommend(n,t=top,based=option):
 	idx =dramas[dramas['Name'] == n].index[0]

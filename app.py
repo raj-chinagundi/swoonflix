@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import requests
 import math
 import re
-from collections import Counter
 from sklearn.metrics.pairwise import cosine_similarity
+from collections import Counter
 import operator
 
 st.title('Swoonflix')
@@ -60,7 +60,7 @@ def text_to_vector(text):
 
 
 option = st.selectbox(
-     'Choose recommedations based on:',
+     'Choose recommedations based on category:',
      ('Genre','Cast'))
 
 top = st.slider('Swoon into our top N recommendations', 0, 100, 10)

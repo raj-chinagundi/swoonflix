@@ -1,6 +1,6 @@
 # Swoonflix
 
-[Link](https://raj-chinagundi-swoonflix-app-o9hyye.streamlit.app/)
+Visit website: [Link](https://raj-chinagundi-swoonflix-app-o9hyye.streamlit.app/)
 
 A content-based recommendation system for Asian dramas and movies using vectorized metadata analysis, delivering personalized suggestions in 150ms per query.
 

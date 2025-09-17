@@ -229,17 +229,7 @@ scikit-learn     # Machine learning library
 - **Analysis**: Statistical correlation between features and performance
 - **Optimization**: Real-time recommendation generation
 
-### 3. 📊 **Performance Analytics**
-- **Correlation Analysis**: Which features predict content success?
-- **Genre Trends**: Popular categories and emerging patterns  
-- **Rating Distribution**: User behavior and preference insights
-- **Recommendation Accuracy**: Continuous model performance monitoring
 
-### 4. 🎨 **Interactive Dashboard**
-- **Real-time Recommendations**: Instant personalized suggestions
-- **Advanced Filtering**: Genre, year, rating, country filters
-- **Data Visualization**: Charts and insights dashboard
-- **Responsive Design**: Mobile and desktop optimized
 
 ---
 
@@ -275,11 +265,6 @@ scikit-learn     # Machine learning library
 - Content-based filtering using advanced ML algorithms
 - Real-time processing with sub-second response times
 
-### 📊 **Analytics Dashboard**
-- Interactive charts showing genre popularity trends
-- Rating distribution analysis across different content types
-- Performance correlation insights
-
 ### 🔍 **Advanced Search & Filter**
 - Filter by genre, country, year, rating
 - Sort by popularity, rating, or release date
@@ -293,22 +278,9 @@ scikit-learn     # Machine learning library
 - [ ] **🌍 Multi-language Support**: Korean, Chinese, Japanese interfaces
 - [ ] **📱 Mobile App**: Native iOS/Android applications
 - [ ] **🔄 Real-time Updates**: Live data synchronization
-- [ ] **👥 Social Features**: User reviews and community recommendations
+- [ ] **👥 Social Features**: Add User reviews and community recommendations
 - [ ] **🎥 Trailer Integration**: Video previews and clips
-- [ ] **📈 Advanced Analytics**: Predictive modeling for trends
-
----
-
-## 🎨 Screenshots
-
-### 🏠 Main Recommendation Interface
-*Clean, intuitive design for discovering your next binge-watch*
-
-### 📊 Analytics & Insights Dashboard  
-*Data visualization showing Asian entertainment trends and patterns*
-
-### 🔍 Advanced Search & Filtering
-*Powerful tools to find exactly what you're looking for*
+- [ ] **📈 Advanced Analytics**: Predictive modeling for trends with dashboard features
 
 ---
 
